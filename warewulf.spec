@@ -54,7 +54,7 @@ Requires: ipxe-bootimgs
 # Assume Red Hat/Fedora build
 BuildRequires: system-release
 BuildRequires: systemd
-BuildRequires: golang >= 1.16
+BuildRequires: golang >= 1.20
 BuildRequires: firewalld-filesystem
 Requires: tftp-server
 Requires: nfs-utils
